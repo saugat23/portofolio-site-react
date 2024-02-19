@@ -22,7 +22,7 @@ const Contacts = () => {
             </div>
         </div>
 
-        <div className='absolute bottom-10 left-10 md:absolute md:bottom-20 md:left-[50rem] text-slate-400 font-mono text-sm'>
+        <div className='text-center mt-56 text-slate-400 font-mono text-sm'>
             <p> Designed & Built by Saugat Bhandari</p>
         </div>
       </div>

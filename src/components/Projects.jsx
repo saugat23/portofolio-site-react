@@ -4,7 +4,7 @@ import { AiOutlineGithub } from "react-icons/ai";
 const Projects = () => {
   return (
     <>
-      <div className="h-[120vh] p-2 md:p-8 lg:p-16" id="projects">
+      <div className="h-[130vh] p-2 md:p-8 lg:p-16" id="projects">
         <div className="ml-4 mr-4 md:ml-10 lg:ml-16 mb-2">
           <h1 className="text-[1.15rem] md:text-2xl font-semibold text-slate-100 ml-4 md:ml-10 lg:ml-16">
             <span className="text-emerald-400 font-mono font-normal">03. </span>
