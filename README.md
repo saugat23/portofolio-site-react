@@ -1,33 +1,40 @@
-**Built With
-My personal portfolio which features some of my github projects as well as my resume and technical skills.**
+# My Personal Portfolio
 
-This project was built using these technologies.
+Welcome to my personal portfolio! Here you'll find a showcase of my GitHub projects, along with my resume and technical skills.
+
+## Built With
+
+This project was developed using the following technologies:
 
 - React.js
 - Node.js
-- Express.js
 - CSS3
+- Tailwind
 - VsCode
-- Vercel
 
-###Features
-**📖 Multi-Page Layout**
+### Features 📖
 
-**🎨 Styled with Tailwind and Css with easy to customize colors**
+- **Multi-Page Layout**: Explore different sections seamlessly.
+- **🎨 Customizable Styling**: Styled with Tailwind and CSS, making it easy to adjust colors and aesthetics.
+- **📱 Fully Responsive**: Enjoy a consistent experience across all devices.
 
-**📱 Fully Responsive**
+## Getting Started
 
-**Getting Started**
-Clone down this repository. You will need node.js and git installed globally on your machine.
+To get a copy of this project up and running on your local machine, follow these simple steps:
 
-**🛠 Installation and Setup Instructions**
-Installation:  `npm install`
+### Prerequisites
 
-**In the project directory, you can run:** `npm run dev`
+Ensure you have Node.js and Git installed globally on your machine.
 
-Runs the app in the development mode.
-Open http://localhost:5173 to view it in the browser. The page will reload if you make edits.
+### Installation and Setup Instructions
 
-Usage Instructions
-Open the project folder and Navigate to /src/components/.
-You will find all the components used and you can edit your information accordingly.
+1. Clone this repository.
+2. Install dependencies: `npm install`
+3. Start the development server: `npm run dev`
+4. Open http://localhost:5173 in your browser to view the app. It will automatically reload when you make edits.
+
+## Usage Instructions
+
+Navigate to `/src/components/` in the project folder to find all the components used. Customize your information accordingly to personalize your portfolio.
+
+Feel free to explore and make this portfolio your own! 🚀
