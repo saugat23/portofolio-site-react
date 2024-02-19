@@ -7,14 +7,6 @@ const Navbar = () => {
     setMenuOpen(!isMenuOpen);
   };
 
-  const handleDownload = () => {
-    const resumeFilePath = "./Saugat Bhandari CV.pdf";
-    const link = document.createElement("a");
-    link.href = resumeFilePath;
-    link.download = "Saugat Bhandari CV.pdf";
-    link.click();
-  };
-
   const navLinks = [
     { id: 1, text: "About", href: "#about" },
     { id: 2, text: "Experience", href: "#experience" },
@@ -65,14 +57,6 @@ const Navbar = () => {
               </a>
             </li>
           ))}
-          <li className="md:inline text-emerald-400 pt-2 px-4">
-            <button
-              className="border-2 border-emerald-400 px-5 py-1 hover:bg-emerald-400 hover:text-[#1B2430] text-sm lg:text-lg"
-              onClick={handleDownload}
-            >
-              Resume
-            </button>
-          </li>
         </ul>
       </div>
 
@@ -120,14 +104,6 @@ const Navbar = () => {
                   </a>
                 </li>
               ))}
-              <li className="text-emerald-400">
-                <button
-                  className="border-2 mt-4 border-emerald-400 px-5 py-1 hover:bg-emerald-400 hover:text-[#1B2430]"
-                  onClick={handleDownload}
-                >
-                  Resume
-                </button>
-              </li>
             </ul>
           </div>
         </div>
