@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Navbar = () => {
   const [isMenuOpen, setMenuOpen] = useState(false);
@@ -15,16 +15,16 @@ const Navbar = () => {
   ];
 
   return (
-    <div className="flex flex-row items-center justify-between py-3 px-2 text-stone-300 font-mono shadow-lg">
-      <div className="cursor-pointer ml-2 md:ml-4 lg:ml-8">
+    <div className="navbar flex flex-row items-center justify-between py-3 px-2 bg-gray-900 text-stone-300 font-mono shadow-xl overflow-hidden h-auto" data-aos="fade-down" data-aos-duration="100">
+      <div className="cursor-pointer ml-2 md:ml-4 lg:ml-8 rounded-full">
         <img src="./logo.png" alt="logo" className="w-14" loading="lazy" />
       </div>
 
       {/* Hamburger Icon for Small Screens */}
-      <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden">
-        <button onClick={handleToggleMenu}>
+      <div className="block md:hidden lg:hidden xl:hidden 2xl:hidden bg-[#111827]">
+        <button onClick={handleToggleMenu} >
           <svg
-            className="w-6 h-6 cursor-pointer"
+            className="w-6 h-6 cursor-pointer bg-[#111827]"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -42,17 +42,17 @@ const Navbar = () => {
 
       {/* Navigation Links for Medium and Large Screens */}
       <div className="hidden md:flex">
-        <ul className="md:flex">
+        <ul className="md:flex bg-[#111827]">
           {navLinks.map((link) => (
-            <li key={link.id} className="md:inline pt-2 md:px-2 lg:px-4 lg:mr-8 md:mr-2">
+            <li key={link.id} className="md:inline pt-2 md:px-2 lg:px-4 lg:mr-8 md:mr-2 bg-[#111827]">
               <a
                 href={link.href}
                 onClick={() => {
                   setMenuOpen(false);
                 }}
-                className="hover:text-emerald-400 text-sm lg:text-lg"
+                className="hover:text-emerald-400 text-sm lg:text-lg bg-[#111827]"
               >
-                <span className="text-emerald-400 font-sans">{`0${link.id}. `}</span>
+                <span className="text-emerald-400 font-sans bg-[#111827]">{`0${link.id}. `}</span>
                 {link.text}
               </a>
             </li>

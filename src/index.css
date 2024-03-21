@@ -4,9 +4,17 @@
 @tailwind components;
 @tailwind utilities;
 
+html{
+    scroll-behavior: smooth;
+}
+
 *{
     background-color: #1B2430;
     overflow-x: hidden;
+}
+
+.navbar{
+    background-color: #111827;
 }
 
 .makeitvertical{

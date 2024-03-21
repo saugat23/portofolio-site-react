@@ -1,9 +1,8 @@
-import React from "react";
 
 const Experience = () => {
   return (
     <>
-      <div className="h-screen p-2 md:p-10 lg:p-20" id="experience">
+      <div className="h-auto lg:h-screen min-h-screen p-2 md:p-10 lg:p-20 overflow-hidden" id="experience" data-aos="zoom-in" data-aos-duration="700">
         <div className="ml-4 mr-4 md:ml-10 lg:ml-16">
           <h1 className="text-[1.15rem] md:text-2xl font-semibold text-slate-100 ml-4 md:ml-10 lg:ml-16">
             <span className="text-emerald-400 font-mono font-normal">02. </span>

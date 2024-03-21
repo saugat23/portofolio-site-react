@@ -1,4 +1,7 @@
 /** @type {import('tailwindcss').Config} */
+// eslint-disable-next-line no-undef
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 export default {
   content: [
     "./index.html",
@@ -7,8 +10,8 @@ export default {
   theme: {
     extend: {
       fontFamily:{
-        'mono' : ['Fira Code', 'monospace'],
-        'sans' : ['Open Sans', 'sans-serif']
+        'mono' : ['Fira Code', ...defaultTheme.fontFamily.mono],
+        'sans' : ['Open Sans', ...defaultTheme.fontFamily.sans],
       }
     },
     screens: {
